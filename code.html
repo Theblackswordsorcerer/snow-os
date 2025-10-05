@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snow OS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+  <div id="desktop">
+    <div class="icon" data-app="files">
+      <div class="icon-image">📁</div>
+      <div class="icon-label">Files</div>
+    </div>
+    <div class="icon" data-app="terminal">
+      <div class="icon-image">>_</div>
+      <div class="icon-label">Terminal</div>
+    </div>
+    <div class="icon" data-app="notes">
+      <div class="icon-image">📝</div>
+      <div class="icon-label">Notes</div>
+    </div>
+    <div class="icon" data-app="browser">
+      <div class="icon-image">🌐</div>
+      <div class="icon-label">Browser</div>
+    </div>
+    <div class="icon" data-app="music">
+      <div class="icon-image">🎵</div>
+      <div class="icon-label">Music</div>
+    </div>
+    <div class="icon" data-app="settings">
+      <div class="icon-image">⚙️</div>
+      <div class="icon-label">Settings</div>
+    </div>
+  </div>
+
+  
+  <div id="windows"></div>
+
+ 
+  <div id="taskbar">
+    <button id="start-btn">☰ Snow</button>
+    <div id="task-list"></div>
+    <div id="tray">
+      <div id="clock"></div>
+    </div>
+  </div>
+
+ 
+  <div id="start-menu">
+    <div class="start-list">
+      <button data-app="files">📁 Files</button>
+      <button data-app="terminal">>_ Terminal</button>
+      <button data-app="notes">📝 Notes</button>
+      <button data-app="browser">🌐 Browser</button>
+      <button data-app="music">🎵 Music</button>
+      <button data-app="settings">⚙️ Settings</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
